@@ -48,6 +48,8 @@
 		0F8060EE285583EA00DA10CC /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EC285583EA00DA10CC /* TrailerList.swift */; };
 		0F8060F02855892D00DA10CC /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EF2855892D00DA10CC /* EpisodesView.swift */; };
 		0F8060F12855892D00DA10CC /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EF2855892D00DA10CC /* EpisodesView.swift */; };
+		0FA4598F28563853009B03C8 /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4598E28563853009B03C8 /* HomeStack.swift */; };
+		0FA4599028563853009B03C8 /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4598E28563853009B03C8 /* HomeStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,7 @@
 		0F8060E92855823A00DA10CC /* VideoPreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewImage.swift; sourceTree = "<group>"; };
 		0F8060EC285583EA00DA10CC /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		0F8060EF2855892D00DA10CC /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
+		0FA4598E28563853009B03C8 /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0F8060C428557C4900DA10CC /* HomeView.swift */,
+				0FA4598E28563853009B03C8 /* HomeStack.swift */,
 				0F8060C328557C4900DA10CC /* HomeVM.swift */,
 			);
 			path = HomeViews;
@@ -313,6 +317,7 @@
 				0F8060CB28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
 				0F8060DD28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C728557C4900DA10CC /* TopMoviePreview.swift in Sources */,
+				0FA4598F28563853009B03C8 /* HomeStack.swift in Sources */,
 				0F8060D328557C4900DA10CC /* MoreLikeThis.swift in Sources */,
 				0F8060ED285583EA00DA10CC /* TrailerList.swift in Sources */,
 				0F8060D528557C4900DA10CC /* MovieDetail.swift in Sources */,
@@ -339,6 +344,7 @@
 				0F8060CC28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
 				0F8060DE28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C828557C4900DA10CC /* TopMoviePreview.swift in Sources */,
+				0FA4599028563853009B03C8 /* HomeStack.swift in Sources */,
 				0F8060D428557C4900DA10CC /* MoreLikeThis.swift in Sources */,
 				0F8060EE285583EA00DA10CC /* TrailerList.swift in Sources */,
 				0F8060D628557C4900DA10CC /* MovieDetail.swift in Sources */,
