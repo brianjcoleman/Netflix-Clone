@@ -29,7 +29,7 @@ struct ComingSoon: View {
     }
     
     var body: some View {
-        let movies = vm.movies.enumerated().map( { $0 })
+        let movies = vm.movies.enumerated().map({ $0 })
         
         let scrollTrackingBinding = Binding {
             return scrollOffset
@@ -38,37 +38,32 @@ struct ComingSoon: View {
             updateActiveIndex(fromScroll: newVal)
         }
         
-//        NavigationView {
-            return Group {
-                ZStack {
-                    Color.black
-                        .edgesIgnoringSafeArea(.all)
-                    
-                    TrackableScrollView(.vertical, showIndicators: false, contentOffset: scrollTrackingBinding) {
-                        LazyVStack {
-                            NotificationBar(showNotificationList: $showNotificationList)
-                            
-                            ForEach(Array(movies), id: \.offset) { index, movie in
-                                ComingSoonRow(movie: movie, movieDetailToShow: $movieDetailToShow)
-                                    .frame(height: 400)
-                                    .overlay(
-                                        Group {
-                                            index == activeIndex ? Color.clear : Color.black.opacity(0.8)
-                                        }
-                                        .animation(.easeInOut, value: UUID())
-                                    )
-                            }
+        
+        
+        //        NavigationView {
+        return Group {
+            ZStack {
+                Color.black
+                    .edgesIgnoringSafeArea(.all)
+                
+                TrackableScrollView(.vertical, showIndicators: false, contentOffset: scrollTrackingBinding) {
+                    LazyVStack {
+                        NotificationBar(showNotificationList: $showNotificationList)
+                        
+                        ForEach(Array(movies), id: \.offset) { index, movie in
+                            ComingSoonRow(movie: movie, movieDetailToShow: $movieDetailToShow)
+                                .frame(height: 400)
+                                .overlay(
+                                    Group {
+                                        index == activeIndex ? Color.clear : Color.black.opacity(0.8)
+                                    }
+                                    .animation(.easeInOut, value: UUID())
+                                )
                         }
                     }
-                    .foregroundColor(.white)
-                    
-                    if let movie = movieDetailToShow {
-                        MovieDetail(movie: movie, movieDetailToShow: $movieDetailToShow)
-                            .animation(.easeIn, value: UUID())
-                            .transition(.opacity)
-                    }
                 }
-            
+                .foregroundColor(.white)
+                
                 NavigationLink(
                     destination: Text("Notifications List"),
                     isActive: $showNotificationList,
@@ -78,13 +73,14 @@ struct ComingSoon: View {
                     .navigationTitle("")
                     .navigationBarHidden(navBarHidden)
                     .onReceive(NotificationCenter.default.publisher(for: UIApplication.willEnterForegroundNotification), perform: { _ in
-                    self.navBarHidden = true
+                        self.navBarHidden = true
                     })
                     .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification), perform: { _ in
-                    self.navBarHidden = false
+                        self.navBarHidden = false
                     })
             }
-//        }
+        }
+        //        }
     }
 }
 
