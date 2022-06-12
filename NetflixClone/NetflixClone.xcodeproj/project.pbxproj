@@ -78,6 +78,8 @@
 		0FDDC83628567392003BBF06 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83428567392003BBF06 /* TrackableScrollView.swift */; };
 		0FDDC838285678DF003BBF06 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC837285678DF003BBF06 /* DownloadsView.swift */; };
 		0FDDC839285678DF003BBF06 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC837285678DF003BBF06 /* DownloadsView.swift */; };
+		0FDDC83C28568047003BBF06 /* MoviePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */; };
+		0FDDC83D28568047003BBF06 /* MoviePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -119,6 +121,7 @@
 		0FDDC831285672C1003BBF06 /* ComingSoonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonVM.swift; sourceTree = "<group>"; };
 		0FDDC83428567392003BBF06 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		0FDDC837285678DF003BBF06 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +227,7 @@
 				0F8060C428557C4900DA10CC /* HomeView.swift */,
 				0FA4598E28563853009B03C8 /* HomeStack.swift */,
 				0F8060C328557C4900DA10CC /* HomeVM.swift */,
+				0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */,
 			);
 			path = HomeViews;
 			sourceTree = "<group>";
@@ -391,6 +395,7 @@
 				0FA4599F28565C18009B03C8 /* SearchVM.swift in Sources */,
 				0FDDC82C28566CFE003BBF06 /* NotificationBar.swift in Sources */,
 				0FA45996285645E7009B03C8 /* Colors.swift in Sources */,
+				0FDDC83C28568047003BBF06 /* MoviePreviewCell.swift in Sources */,
 				0F8060CF28557C4900DA10CC /* Movie.swift in Sources */,
 				0FDDC82828566CB2003BBF06 /* ComingSoon.swift in Sources */,
 				0F8060E328557E9300DA10CC /* Trailer.swift in Sources */,
@@ -432,6 +437,7 @@
 				0FA459A028565C18009B03C8 /* SearchVM.swift in Sources */,
 				0FDDC82D28566CFE003BBF06 /* NotificationBar.swift in Sources */,
 				0FA45997285645E7009B03C8 /* Colors.swift in Sources */,
+				0FDDC83D28568047003BBF06 /* MoviePreviewCell.swift in Sources */,
 				0F8060D028557C4900DA10CC /* Movie.swift in Sources */,
 				0FDDC82928566CB2003BBF06 /* ComingSoon.swift in Sources */,
 				0F8060E428557E9300DA10CC /* Trailer.swift in Sources */,
