@@ -43,7 +43,7 @@ let episode2 = Episode(name: "Dark Matter",
 let episode3 = Episode(name: "Ghosts",
                        season: 1,
                        episodeNumber: 3,
-                       thumbnailImageURLString: "https://picsum.photos/300/104",
+                       thumbnailImageURLString: "https://picsum.photos/300/108",
                        description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon questions Ulrich again.",
                        length: 56,
                        videoURL: exampleVideoURL
