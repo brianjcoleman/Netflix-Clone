@@ -31,7 +31,9 @@ struct TopMoviePreview: View {
                 .clipped()
             
             VStack {
+                
                 Spacer()
+                
                 HStack {
                     ForEach(movie.categories, id:\.self) { category in
                         HStack {
