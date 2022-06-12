@@ -46,7 +46,6 @@ struct CustomTabSwitcher: View {
                 }
             }
             
-            
             // Selected View
             switch currentTab {
             case .episodes:

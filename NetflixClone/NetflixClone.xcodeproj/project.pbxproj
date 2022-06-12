@@ -46,6 +46,8 @@
 		0F8060EB2855823A00DA10CC /* VideoPreviewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060E92855823A00DA10CC /* VideoPreviewImage.swift */; };
 		0F8060ED285583EA00DA10CC /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EC285583EA00DA10CC /* TrailerList.swift */; };
 		0F8060EE285583EA00DA10CC /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EC285583EA00DA10CC /* TrailerList.swift */; };
+		0F8060F02855892D00DA10CC /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EF2855892D00DA10CC /* EpisodesView.swift */; };
+		0F8060F12855892D00DA10CC /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8060EF2855892D00DA10CC /* EpisodesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +73,7 @@
 		0F8060E528557EDB00DA10CC /* SwiftUIVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVideoView.swift; sourceTree = "<group>"; };
 		0F8060E92855823A00DA10CC /* VideoPreviewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreviewImage.swift; sourceTree = "<group>"; };
 		0F8060EC285583EA00DA10CC /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
+		0F8060EF2855892D00DA10CC /* EpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,7 @@
 				0F8060C128557C4900DA10CC /* CustomTabSwitcher.swift */,
 				0F8060BF28557C4900DA10CC /* MoreLikeThis.swift */,
 				0F8060EC285583EA00DA10CC /* TrailerList.swift */,
+				0F8060EF2855892D00DA10CC /* EpisodesView.swift */,
 			);
 			path = MovieDetail;
 			sourceTree = "<group>";
@@ -296,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8060F02855892D00DA10CC /* EpisodesView.swift in Sources */,
 				0F8060CF28557C4900DA10CC /* Movie.swift in Sources */,
 				0F8060E328557E9300DA10CC /* Trailer.swift in Sources */,
 				0F8060D728557C4900DA10CC /* CustomTabSwitcher.swift in Sources */,
@@ -321,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8060F12855892D00DA10CC /* EpisodesView.swift in Sources */,
 				0F8060D028557C4900DA10CC /* Movie.swift in Sources */,
 				0F8060E428557E9300DA10CC /* Trailer.swift in Sources */,
 				0F8060D828557C4900DA10CC /* CustomTabSwitcher.swift in Sources */,
