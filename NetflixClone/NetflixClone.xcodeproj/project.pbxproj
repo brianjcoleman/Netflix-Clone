@@ -54,6 +54,8 @@
 		0FA4599328564490009B03C8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4599128564490009B03C8 /* SearchBar.swift */; };
 		0FA45996285645E7009B03C8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA45995285645E7009B03C8 /* Colors.swift */; };
 		0FA45997285645E7009B03C8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA45995285645E7009B03C8 /* Colors.swift */; };
+		0FA4599928564985009B03C8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4599828564985009B03C8 /* ActivityIndicator.swift */; };
+		0FA4599A28564985009B03C8 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA4599828564985009B03C8 /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,7 @@
 		0FA4598E28563853009B03C8 /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 		0FA4599128564490009B03C8 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		0FA45995285645E7009B03C8 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0FA4599828564985009B03C8 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,7 @@
 			children = (
 				0F8060C628557C4900DA10CC /* GlobalHelpers.swift */,
 				0FA45995285645E7009B03C8 /* Colors.swift */,
+				0FA4599828564985009B03C8 /* ActivityIndicator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -332,6 +336,7 @@
 				0F80608128557B4B00DA10CC /* ContentView.swift in Sources */,
 				0F8060C928557C4900DA10CC /* PlayButton.swift in Sources */,
 				0F8060CB28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
+				0FA4599928564985009B03C8 /* ActivityIndicator.swift in Sources */,
 				0F8060DD28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C728557C4900DA10CC /* TopMoviePreview.swift in Sources */,
 				0FA4598F28563853009B03C8 /* HomeStack.swift in Sources */,
@@ -361,6 +366,7 @@
 				0F80608228557B4B00DA10CC /* ContentView.swift in Sources */,
 				0F8060CA28557C4900DA10CC /* PlayButton.swift in Sources */,
 				0F8060CC28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
+				0FA4599A28564985009B03C8 /* ActivityIndicator.swift in Sources */,
 				0F8060DE28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C828557C4900DA10CC /* TopMoviePreview.swift in Sources */,
 				0FA4599028563853009B03C8 /* HomeStack.swift in Sources */,

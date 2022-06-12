@@ -9,7 +9,11 @@ import SwiftUI
 
 struct SearchBar: View {
     
-    @State private var text: String = ""
+    @Binding var text: String
+    
+    @State private var isEditing = true
+    
+    @Binding var isLoading: Bool
     
     var body: some View {
         ZStack(alignment: .leading) {
@@ -23,28 +27,52 @@ struct SearchBar: View {
                     .padding(.leading, 10)
                 
                 TextField("Search", text: $text)
+                    .padding(7)
+                    .padding(.leading, -7)
+                    .padding(.horizontal, 10)
                     .background(Color.graySearchBackground)
                     .cornerRadius(8)
                     .foregroundColor(.white)
-                    .padding(7)
-                    .padding(.leading, -7)
+                    .onTapGesture {
+                        isEditing = true
+                    }
                 
-                Button {
-                    //
-                } label: {
-                    Image(systemName: "xmark.circle.fill")
-                        .foregroundColor(.graySearchText)
+                if !text.isEmpty {
+                    if isLoading {
+                        Button {
+                            text = ""
+                        } label: {
+                            ActivityIndicator(style: .medium, animate: .constant(true))
+                                .configure {
+                                    $0.color = .white
+                                }
+                        }
+                        .padding(.trailing, 18)
                         .frame(width: 35, height: 35)
+                    } else {
+                        Button {
+                            text = ""
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundColor(.graySearchText)
+                                .frame(width: 35, height: 35)
+                        }
+                        .padding(.trailing, 18)
+                    }
+                    
+                    if isEditing {
+                        Button {
+                            text = ""
+                            isEditing = false
+                            hideKeyboard()
+                        } label: {
+                            Text("Cancel")
+                                .foregroundColor(.white)
+                        }
+                        .padding(.trailing, 10)
+                    }
                 }
-                .padding(.trailing, 18)
                 
-                Button {
-                    //
-                } label: {
-                    Text("Cancel")
-                        .foregroundColor(.white)
-                }
-                .padding(.trailing, 10)
             }
         }
     }
@@ -56,7 +84,7 @@ struct SearchBar_Previews: PreviewProvider {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
-            SearchBar()
+            SearchBar(text: .constant(""), isLoading: .constant(false))
                 .padding()
         }
     }
