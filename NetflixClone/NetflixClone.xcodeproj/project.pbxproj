@@ -84,6 +84,9 @@
 		0FDDC8412856C7A2003BBF06 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */; };
 		0FDDC8432856CBD3003BBF06 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8422856CBD3003BBF06 /* PagerView.swift */; };
 		0FDDC8442856CBD3003BBF06 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8422856CBD3003BBF06 /* PagerView.swift */; };
+		0FDDC8472856D49A003BBF06 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 0FDDC8462856D49A003BBF06 /* VideoPlayer */; };
+		0FDDC8492856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */; };
+		0FDDC84A2856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +131,7 @@
 		0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCell.swift; sourceTree = "<group>"; };
 		0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
 		0FDDC8422856CBD3003BBF06 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F8060E128557CD400DA10CC /* Kingfisher in Frameworks */,
+				0FDDC8472856D49A003BBF06 /* VideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +301,7 @@
 				0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */,
 				0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */,
 				0FDDC8422856CBD3003BBF06 /* PagerView.swift */,
+				0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -318,6 +324,7 @@
 			name = "NetflixClone (iOS)";
 			packageProductDependencies = (
 				0F8060E028557CD400DA10CC /* Kingfisher */,
+				0FDDC8462856D49A003BBF06 /* VideoPlayer */,
 			);
 			productName = "NetflixClone (iOS)";
 			productReference = 0F80607628557B4B00DA10CC /* NetflixClone.app */;
@@ -369,6 +376,7 @@
 			mainGroup = 0F80606928557B4A00DA10CC;
 			packageReferences = (
 				0F8060DF28557CD400DA10CC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				0FDDC8452856D49A003BBF06 /* XCRemoteSwiftPackageReference "VideoPlayer" */,
 			);
 			productRefGroup = 0F80607728557B4B00DA10CC /* Products */;
 			projectDirPath = "";
@@ -441,6 +449,7 @@
 				0F80607F28557B4B00DA10CC /* NetflixCloneApp.swift in Sources */,
 				0F8060E628557EDB00DA10CC /* SwiftUIVideoView.swift in Sources */,
 				0F8060CD28557C4900DA10CC /* SmallVerticalButton.swift in Sources */,
+				0FDDC8492856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +494,7 @@
 				0F80608028557B4B00DA10CC /* NetflixCloneApp.swift in Sources */,
 				0F8060E728557EDB00DA10CC /* SwiftUIVideoView.swift in Sources */,
 				0F8060CE28557C4900DA10CC /* SmallVerticalButton.swift in Sources */,
+				0FDDC84A2856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,6 +768,14 @@
 				kind = branch;
 			};
 		};
+		0FDDC8452856D49A003BBF06 /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -765,6 +783,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0F8060DF28557CD400DA10CC /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		0FDDC8462856D49A003BBF06 /* VideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FDDC8452856D49A003BBF06 /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			productName = VideoPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
