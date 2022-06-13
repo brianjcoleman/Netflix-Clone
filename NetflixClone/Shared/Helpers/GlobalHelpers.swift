@@ -83,6 +83,7 @@ let exampleMovie1 = Movie(
     year: 2020,
     rating: "TV-MA",
     numberOfSeasons: 2,
+    accentColor: .blue,
     defaultEpisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",

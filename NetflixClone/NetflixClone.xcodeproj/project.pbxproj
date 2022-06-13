@@ -87,6 +87,10 @@
 		0FDDC8472856D49A003BBF06 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 0FDDC8462856D49A003BBF06 /* VideoPlayer */; };
 		0FDDC8492856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */; };
 		0FDDC84A2856D4B9003BBF06 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */; };
+		0FDDC84C2856D609003BBF06 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84B2856D609003BBF06 /* PreviewView.swift */; };
+		0FDDC84D2856D609003BBF06 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84B2856D609003BBF06 /* PreviewView.swift */; };
+		0FDDC84F2856D636003BBF06 /* PreviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84E2856D636003BBF06 /* PreviewVM.swift */; };
+		0FDDC8502856D636003BBF06 /* PreviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84E2856D636003BBF06 /* PreviewVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +136,8 @@
 		0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
 		0FDDC8422856CBD3003BBF06 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
 		0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayerView.swift; sourceTree = "<group>"; };
+		0FDDC84B2856D609003BBF06 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		0FDDC84E2856D636003BBF06 /* PreviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +308,8 @@
 				0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */,
 				0FDDC8422856CBD3003BBF06 /* PagerView.swift */,
 				0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */,
+				0FDDC84B2856D609003BBF06 /* PreviewView.swift */,
+				0FDDC84E2856D636003BBF06 /* PreviewVM.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -419,6 +427,7 @@
 				0FA459A228565E99009B03C8 /* GenerateMovies.swift in Sources */,
 				0FA4599F28565C18009B03C8 /* SearchVM.swift in Sources */,
 				0FDDC82C28566CFE003BBF06 /* NotificationBar.swift in Sources */,
+				0FDDC84F2856D636003BBF06 /* PreviewVM.swift in Sources */,
 				0FA45996285645E7009B03C8 /* Colors.swift in Sources */,
 				0FDDC83C28568047003BBF06 /* MoviePreviewCell.swift in Sources */,
 				0F8060CF28557C4900DA10CC /* Movie.swift in Sources */,
@@ -438,6 +447,7 @@
 				0F8060C928557C4900DA10CC /* PlayButton.swift in Sources */,
 				0F8060CB28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
 				0FA4599928564985009B03C8 /* ActivityIndicator.swift in Sources */,
+				0FDDC84C2856D609003BBF06 /* PreviewView.swift in Sources */,
 				0F8060DD28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C728557C4900DA10CC /* TopMoviePreview.swift in Sources */,
 				0FA4598F28563853009B03C8 /* HomeStack.swift in Sources */,
@@ -464,6 +474,7 @@
 				0FA459A328565E99009B03C8 /* GenerateMovies.swift in Sources */,
 				0FA459A028565C18009B03C8 /* SearchVM.swift in Sources */,
 				0FDDC82D28566CFE003BBF06 /* NotificationBar.swift in Sources */,
+				0FDDC8502856D636003BBF06 /* PreviewVM.swift in Sources */,
 				0FA45997285645E7009B03C8 /* Colors.swift in Sources */,
 				0FDDC83D28568047003BBF06 /* MoviePreviewCell.swift in Sources */,
 				0F8060D028557C4900DA10CC /* Movie.swift in Sources */,
@@ -483,6 +494,7 @@
 				0F8060CA28557C4900DA10CC /* PlayButton.swift in Sources */,
 				0F8060CC28557C4900DA10CC /* StandardHomeMovie.swift in Sources */,
 				0FA4599A28564985009B03C8 /* ActivityIndicator.swift in Sources */,
+				0FDDC84D2856D609003BBF06 /* PreviewView.swift in Sources */,
 				0F8060DE28557C4900DA10CC /* GlobalHelpers.swift in Sources */,
 				0F8060C828557C4900DA10CC /* TopMoviePreview.swift in Sources */,
 				0FA4599028563853009B03C8 /* HomeStack.swift in Sources */,
