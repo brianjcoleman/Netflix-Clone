@@ -11,6 +11,8 @@ struct PreviewView: View {
     
     @ObservedObject var vm: PreviewVM
     
+    var playVideo: Bool
+    
     var body: some View {
         ZStack {
             Color.black
@@ -18,7 +20,7 @@ struct PreviewView: View {
             
             TrailerPlayerView(
                 videoURL: vm.movie.trailers.first?.videoURL,
-                playVideo: .constant(false)
+                playVideo: .constant(playVideo)
             )
             
             VStack {
@@ -103,6 +105,6 @@ struct PreviewView: View {
 
 struct PreviewView_Previews: PreviewProvider {
     static var previews: some View {
-        PreviewView(vm: PreviewVM(movie: exampleMovie1))
+        PreviewView(vm: PreviewVM(movie: exampleMovie1), playVideo: false)
     }
 }

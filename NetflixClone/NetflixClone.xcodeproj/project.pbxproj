@@ -91,6 +91,8 @@
 		0FDDC84D2856D609003BBF06 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84B2856D609003BBF06 /* PreviewView.swift */; };
 		0FDDC84F2856D636003BBF06 /* PreviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84E2856D636003BBF06 /* PreviewVM.swift */; };
 		0FDDC8502856D636003BBF06 /* PreviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC84E2856D636003BBF06 /* PreviewVM.swift */; };
+		0FDDC8522857A369003BBF06 /* PreviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8512857A369003BBF06 /* PreviewList.swift */; };
+		0FDDC8532857A369003BBF06 /* PreviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8512857A369003BBF06 /* PreviewList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +140,7 @@
 		0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayerView.swift; sourceTree = "<group>"; };
 		0FDDC84B2856D609003BBF06 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		0FDDC84E2856D636003BBF06 /* PreviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVM.swift; sourceTree = "<group>"; };
+		0FDDC8512857A369003BBF06 /* PreviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +313,7 @@
 				0FDDC8482856D4B9003BBF06 /* TrailerPlayerView.swift */,
 				0FDDC84B2856D609003BBF06 /* PreviewView.swift */,
 				0FDDC84E2856D636003BBF06 /* PreviewVM.swift */,
+				0FDDC8512857A369003BBF06 /* PreviewList.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -454,6 +458,7 @@
 				0FA4599228564490009B03C8 /* SearchBar.swift in Sources */,
 				0FDDC82F28566FD3003BBF06 /* ComingSoonRow.swift in Sources */,
 				0F8060D328557C4900DA10CC /* MoreLikeThis.swift in Sources */,
+				0FDDC8522857A369003BBF06 /* PreviewList.swift in Sources */,
 				0F8060ED285583EA00DA10CC /* TrailerList.swift in Sources */,
 				0F8060D528557C4900DA10CC /* MovieDetail.swift in Sources */,
 				0F80607F28557B4B00DA10CC /* NetflixCloneApp.swift in Sources */,
@@ -501,6 +506,7 @@
 				0FA4599328564490009B03C8 /* SearchBar.swift in Sources */,
 				0FDDC83028566FD3003BBF06 /* ComingSoonRow.swift in Sources */,
 				0F8060D428557C4900DA10CC /* MoreLikeThis.swift in Sources */,
+				0FDDC8532857A369003BBF06 /* PreviewList.swift in Sources */,
 				0F8060EE285583EA00DA10CC /* TrailerList.swift in Sources */,
 				0F8060D628557C4900DA10CC /* MovieDetail.swift in Sources */,
 				0F80608028557B4B00DA10CC /* NetflixCloneApp.swift in Sources */,
