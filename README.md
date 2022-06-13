@@ -14,5 +14,9 @@ Lessons 			|  41 / 41 | 100%
 
 ## Screenshots
 
-![Home](https://github.com/brianjcoleman/Netflix-Clone/blob/master/UC-4e07f8b8-6798-4d8b-8c2f-d8045fbc3dff.jpeg?raw=true)
+![Home](https://github.com/brianjcoleman/Netflix-Clone/blob/master/Screenshots/1-Home.png?raw=true)
+![View Details](https://github.com/brianjcoleman/Netflix-Clone/blob/master/Screenshots/2-ViewDetails.png?raw=true)
+![Search](https://github.com/brianjcoleman/Netflix-Clone/blob/master/Screenshots/3-Search.png?raw=true)
+![Coming Soon](https://github.com/brianjcoleman/Netflix-Clone/blob/master/Screenshots/4-ComingSoon.png?raw=true)
+![Downloads](https://github.com/brianjcoleman/Netflix-Clone/blob/master/Screenshots/5-Downloads.png?raw=true)
 
