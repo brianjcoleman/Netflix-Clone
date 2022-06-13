@@ -18,9 +18,16 @@ struct PreviewView: View {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
+//            TrailerPlayerView(
+//                videoURL:
+//                    vm.movie.trailers.first?.videoURL,
+//                    playVideo: .constant(playVideo)
+//            )
+
             TrailerPlayerView(
-                videoURL: vm.movie.trailers.first?.videoURL,
-                playVideo: .constant(playVideo)
+                videoURL:
+                    vm.movie.trailers.first?.videoURL,
+                    playVideo: .constant(false)
             )
             
             VStack {
