@@ -82,6 +82,8 @@
 		0FDDC83D28568047003BBF06 /* MoviePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */; };
 		0FDDC8402856C7A2003BBF06 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */; };
 		0FDDC8412856C7A2003BBF06 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */; };
+		0FDDC8432856CBD3003BBF06 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8422856CBD3003BBF06 /* PagerView.swift */; };
+		0FDDC8442856CBD3003BBF06 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDDC8422856CBD3003BBF06 /* PagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +127,7 @@
 		0FDDC837285678DF003BBF06 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 		0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCell.swift; sourceTree = "<group>"; };
 		0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
+		0FDDC8422856CBD3003BBF06 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +295,7 @@
 			children = (
 				0FDDC83B28568047003BBF06 /* MoviePreviewCell.swift */,
 				0FDDC83F2856C7A2003BBF06 /* MoviePreviewRow.swift */,
+				0FDDC8422856CBD3003BBF06 /* PagerView.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -401,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA459A5285663B0009B03C8 /* PopularMovieView.swift in Sources */,
+				0FDDC8432856CBD3003BBF06 /* PagerView.swift in Sources */,
 				0F8060F02855892D00DA10CC /* EpisodesView.swift in Sources */,
 				0FDDC838285678DF003BBF06 /* DownloadsView.swift in Sources */,
 				0FA459A228565E99009B03C8 /* GenerateMovies.swift in Sources */,
@@ -444,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FA459A6285663B0009B03C8 /* PopularMovieView.swift in Sources */,
+				0FDDC8442856CBD3003BBF06 /* PagerView.swift in Sources */,
 				0F8060F12855892D00DA10CC /* EpisodesView.swift in Sources */,
 				0FDDC839285678DF003BBF06 /* DownloadsView.swift in Sources */,
 				0FA459A328565E99009B03C8 /* GenerateMovies.swift in Sources */,
